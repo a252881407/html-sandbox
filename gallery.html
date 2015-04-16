@@ -11,14 +11,7 @@
     This loads the jQuery JavaScript library. The two forward slashes here are not a typo.
     See: http://stackoverflow.com/questions/9646407/two-forward-slashes-in-a-url-src-href-attribute
     -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-    <!--
-    This loads the "Lightbox" jQuery plugin.  To use this all we need to use
-    is add the "data-lightbox" attribute to an image tag.
-    See: http://lokeshdhakar.com/projects/lightbox2/
-    -->
-    <script src="javascript/lightbox.js"></script>
+    
   </head>
   <body>
     <header>
@@ -65,7 +58,7 @@
             <img src="img/photos/3.jpg">
           </a>
           <li>
-          <a data-lightbox="image-221" href="img/photos/212.jpg">
+          <a data-lightbox="image-221" href="img/photos/212.jpg" data-title="Best MMORPG">
             <img src="img/photos/212.jpg">
             <li>
               This is my ad on World of Warcraft, it is a poster, it is worth playing because i've played it, and i think other gamers should too!
@@ -78,7 +71,7 @@
           </a>
         </li>
         <li>
-          <a data-lightbox="image-331" href="img/photos/321.jpg">
+          <a data-lightbox="image-331" href="img/photos/321.jpg" data-title="i spend half of a class time on this.">
             <img src="img/photos/321.jpg">
             <li>this is a background image, i made this and i think this is very cool,  i liked the colors and the lines crossing each other, i spend alot of time in this.
             </li>
@@ -90,6 +83,10 @@
             <li>
               this is my new working assignment in photoshop, is a watch in the picture yacht. This is an advertistment on a fancy watch. I used many photoshop technique to finish it.
             </li>
+            <a data-lightbox="image-244" href="img/photos/244.jpg">
+            <img src="img/photos/244.jpg"></a>
+            this is an animation with balls bouncing on the screen, it bounce more than 5 times and it bounce very fast.
+            <li>
         <li>
           <a data-lightbox="image-1" href="img/photos/5.jpg">
             <img src="img/photos/5.jpg">
@@ -104,7 +101,7 @@
           </a>
         </li>
         <li>
-          <a data-lightbox="image-10" href="img/photos/15.jpg">
+          <a data-lightbox="image-10" href="img/photos/15.jpg" data-title="i use photoshop to color this woman.">
             <img src="img/photos/15.jpg">
             <li>
             this is an image of a broadway woman.
@@ -112,8 +109,9 @@
           </a>
         </li>
         <li>
-          <a data-lightbox="image-20" href="img/photos/19.jpg">
+          <a data-lightbox="image-20" href="img/photos/19.jpg" data-title="this is an extracting assignment, image and character is from World of Warcraft.">
             <img src="img/photos/19.jpg">
+
             <li>
             this is my extracting assignment, it is based off characters from World of Warcraft.
             </li>
@@ -126,5 +124,13 @@
         <p>This is a footer.</p>
       </div>
     </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!--
+    This loads the "Lightbox" jQuery plugin.  To use this all we need to use
+    is add the "data-lightbox" attribute to an image tag.
+    See: http://lokeshdhakar.com/projects/lightbox2/
+    -->
+    <script src="javascript/lightbox.js"></script>
   </body>
 </html>
